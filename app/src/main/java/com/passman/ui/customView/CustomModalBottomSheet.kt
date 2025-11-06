@@ -57,7 +57,7 @@ fun CustomModalBottomSheet(
         scrimColor = scrimColor,
         dragHandle = dragHandle,
         contentWindowInsets = { windowInsets },
-        properties,
+        properties = properties,
         content = content
     )
 }
